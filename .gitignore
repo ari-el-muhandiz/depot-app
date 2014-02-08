@@ -15,3 +15,5 @@
 /log/*.log
 /tmp
 /.rvmrc
+
+/config/initializers/init_params.rb

@@ -2,7 +2,7 @@ require 'test_helper'
 
 class CartsControllerTest < ActionController::TestCase
   setup do
-    @cart = carts(:one)
+    @cart = line_items(:one).cart
   end
 
   test "should get index" do
